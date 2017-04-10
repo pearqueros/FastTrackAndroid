@@ -15,10 +15,14 @@
  */
 package com.example.android.recyclerview;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     /*
      * References to RecyclerView and Adapter to reset the list to its
-     * "pretty" state when the reset menu item is clicked.
+     * "pretty" state when the reset main item is clicked.
      */
     private GreenAdapter mAdapter;
     private RecyclerView mNumbersList;
