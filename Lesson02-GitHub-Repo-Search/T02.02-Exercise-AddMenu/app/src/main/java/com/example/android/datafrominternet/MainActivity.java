@@ -44,18 +44,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Do 2 - 7 in menu.xml ///////////////////////////////////////////////////////////////////////
-    // TODO (2) Create a menu xml called 'main.xml' in the res->menu folder DONE
-    // TODO (3) Add one menu item to your menu DONE
-    // TODO (4) Give the menu item an id of @+id/action_search DONE
-    // TODO (5) Set the orderInCategory to 1 DONE
-    // TODO (6) Show this item if there is room (use app:showAsAction, not android:showAsAction) DONE
-    // TODO (7) Set the title to the search string ("Search") from strings.xml DONE
+    // DONE (2) Create a menu xml called 'main.xml' in the res->menu folder DONE
+    // DONE (3) Add one menu item to your menu DONE
+    // DONE (4) Give the menu item an id of @+id/action_search DONE
+    // DONE (5) Set the orderInCategory to 1 DONE
+    // DONE (6) Show this item if there is room (use app:showAsAction, not android:showAsAction) DONE
+    // DONE (7) Set the title to the search string ("Search") from strings.xml DONE
     // Do 2 - 7 in menu.xml ///////////////////////////////////////////////////////////////////////
 
 
-    // TODO (8) Override onCreateOptionsMenu DONE
-    // TODO (9) Within onCreateOptionsMenu, use getMenuInflater().inflate to inflate the menu DONE
-    // TODO (10) Return true to display your menu DONE
+    // DONE (8) Override onCreateOptionsMenu DONE
+    // DONE(9) Within onCreateOptionsMenu, use getMenuInflater().inflate to inflate the menu DONE
+    // DONE (10) Return true to display your menu DONE
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -64,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // TODO (11) Override onOptionsItemSelected DONE
-    // TODO (12) Within onOptionsItemSelected, get the ID of the item that was selected DONE
-    // TODO (13) If the item's ID is R.id.action_search, show a Toast and return true to tell Android that you've handled this menu click DONE
-    // TODO (14) Don't forgot to call .show() on your Toast DONE
-    // TODO (15) If you do NOT handle the menu click, return super.onOptionsItemSelected to let Android handle the menu click DONE
+    // DONE (11) Override onOptionsItemSelected
+    // DONE (12) Within onOptionsItemSelected, get the ID of the item that was selected DONE
+    // DONE (13) If the item's ID is R.id.action_search, show a Toast and return true to tell Android that you've handled this menu click DONE
+    // DONE (14) Don't forgot to call .show() on your Toast DONE
+    // DONE (15) If you do NOT handle the menu click, return super.onOptionsItemSelected to let Android handle the menu click
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
